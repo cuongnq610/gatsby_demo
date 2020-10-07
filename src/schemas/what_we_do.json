@@ -1,0 +1,27 @@
+{
+    "Main" : {
+      "what_we_do_title" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label" : "what_we_do_title",
+          "placeholder" : "what_we_do_title"
+        }
+      },
+      "what_we_do_image" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : {
+            "width" : 500,
+            "height" : 500
+          },
+          "thumbnails" : [ {
+            "name" : "dasd",
+            "width" : 250,
+            "height" : 250
+          } ],
+          "label" : "what_we_do_image"
+        }
+      }
+    }
+  }

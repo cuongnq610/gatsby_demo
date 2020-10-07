@@ -1,0 +1,29 @@
+{
+    "Main" : {
+      "what_we_do_detail_title" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label" : "what_we_do_detail_title",
+          "placeholder" : "what_we_do_detail_title"
+        }
+      },
+      "what_we_do_detail_relation" : {
+        "type" : "Link",
+        "config" : {
+          "select" : "document",
+          "customtypes" : [ "what_we_do" ],
+          "label" : "what_we_do_detail_relation",
+          "placeholder" : "what_we_do_detail_relation"
+        }
+      },
+      "what_we_do_detail_description" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+          "label" : "what_we_do_detail_description",
+          "placeholder" : "what_we_do_detail_description"
+        }
+      }
+    }
+  }
